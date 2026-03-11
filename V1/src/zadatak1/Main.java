@@ -4,7 +4,12 @@ package zadatak1;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        // Jednolinijski komentar
 
-        System.out.println("Hello");
-        }
+        /*
+        Viselinijski komentar
+         */
+
+        System.out.println("Zdravo svete");
     }
+}
