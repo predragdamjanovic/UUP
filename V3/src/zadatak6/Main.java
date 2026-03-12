@@ -31,7 +31,6 @@ public class Main {
                 System.out.println("Jul");
                 break;
             case 8:
-
                 System.out.println("Avgust");
                 break;
             case 9:
