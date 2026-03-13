@@ -1,6 +1,5 @@
 package zadatak7;
 
-import java.util.Map;
 import java.util.Scanner;
 
 public class Kocke {
@@ -51,7 +50,7 @@ public class Kocke {
                     System.out.println("Izlaz iz programa");
                     break;
                 }
-                continue;
+
             } else if (izbor.equalsIgnoreCase("ne")) {
                 System.out.println("Izlazak iz programa!");
                 break;
@@ -59,9 +58,6 @@ public class Kocke {
                 System.out.println("Nite lepo uneli opciju. Izlazak iz programa!");
                 break;
             }
-
         } while (balans >= 100);
-
     }
-
 }
