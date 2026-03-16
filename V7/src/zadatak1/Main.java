@@ -12,9 +12,14 @@ public class Main {
         System.out.println("Unesi drugi broj: ");
         int b = sc.nextInt();
 
+        zbir(a,b);
         int r = razlika(a, b);
         int p = proizvod(a, b);
         double k = kolicnik(a,b);
+
+        System.out.println("r = " + r);
+        System.out.println("p = " + p);
+        System.out.println("k = " + k);
 
         sc.close();
     }
